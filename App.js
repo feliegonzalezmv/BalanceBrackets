@@ -36,11 +36,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   input: {
+    color: 'black',
     marginTop: 20,
     width: 200,
     borderColor: 'gray',
@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
+    color: 'black',
     fontSize: 20,
     fontWeight: 'bold',
   },
